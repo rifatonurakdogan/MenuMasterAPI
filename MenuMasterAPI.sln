@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuMasterAPI.WebAPI", "MealMateAPI\MenuMasterAPI.WebAPI.csproj", "{508E5A3F-9EB4-4A75-9C86-5C50E6173F55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuMasterAPI.Domain", "MealMateAPI.Domain\MenuMasterAPI.Domain.csproj", "{E732602E-FBFB-4B74-995B-E950ECA11C77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuMasterAPI.Infrastructure", "MealMateAPI.Infrastructure\MenuMasterAPI.Infrastructure.csproj", "{19C22243-64D4-415A-8114-6D1BC53E74CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuMasterAPI.Application", "MealMateAPI.Application\MenuMasterAPI.Application.csproj", "{0B3AD259-0BC6-4153-8D8C-D2F15C957540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{508E5A3F-9EB4-4A75-9C86-5C50E6173F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508E5A3F-9EB4-4A75-9C86-5C50E6173F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508E5A3F-9EB4-4A75-9C86-5C50E6173F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508E5A3F-9EB4-4A75-9C86-5C50E6173F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E732602E-FBFB-4B74-995B-E950ECA11C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E732602E-FBFB-4B74-995B-E950ECA11C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E732602E-FBFB-4B74-995B-E950ECA11C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E732602E-FBFB-4B74-995B-E950ECA11C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C22243-64D4-415A-8114-6D1BC53E74CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C22243-64D4-415A-8114-6D1BC53E74CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C22243-64D4-415A-8114-6D1BC53E74CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C22243-64D4-415A-8114-6D1BC53E74CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3AD259-0BC6-4153-8D8C-D2F15C957540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3AD259-0BC6-4153-8D8C-D2F15C957540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3AD259-0BC6-4153-8D8C-D2F15C957540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3AD259-0BC6-4153-8D8C-D2F15C957540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E77B090-9454-4735-B551-6A443A35CB34}
+	EndGlobalSection
+EndGlobal
